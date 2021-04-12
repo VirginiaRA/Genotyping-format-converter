@@ -17,8 +17,14 @@ marker_2	0	2	Bad_call	1	0	2
 marker_3	0	2	2	Bad_call	0	0
 marker_4	0	Bad_call	2	1	1	2
 ```
-If you want to safe the results into a file run the code using:
+If you want to save the results into a file run the code using:
 
 ```
-python change_genotype_format.py >> nameoffile.txt
+python change_genotype_format.py > nameoffile.txt
 ```
+
+Contributors
+------------
+
+- Virginia Rodriguez Almansa
+- Miquel Perello Nieto
