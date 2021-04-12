@@ -1,5 +1,5 @@
 probeset_id	variety_1	variety_2	variety_3	variety_4	variety_5	variety_6
-marker_1	AA	CC	AC	AA	CC	CC	
+marker_1	AA	CC	AC	AA	CC	CC
 marker_2	TT	GG	X	TG	TT	GG
 marker_3	GG	CC	CC	X	GG	GG
 marker_4	AA	X	GG	AG	AG	GG
