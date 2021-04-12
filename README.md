@@ -12,7 +12,7 @@ After running the test you should get the following results:
 
 ```
 probeset_id	variety_1	variety_2	variety_3	variety_4	variety_5	variety_6
-marker_1	0	2	1	0	2	2	x
+marker_1	0	2	1	0	2	2
 marker_2	0	2	Bad_call	1	0	2
 marker_3	0	2	2	Bad_call	0	0
 marker_4	0	Bad_call	2	1	1	2
