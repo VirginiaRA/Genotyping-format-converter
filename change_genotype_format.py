@@ -1,7 +1,7 @@
 #!/usr/env/python
 #opens the file
-gen_file = open('50k_data.txt', mode='r')
-gen_file1 = open('failed_pattern', mode='w')
+gen_file = open('test.txt', mode='r')
+gen_failed_file = open('failed_pattern', mode='w')
 
 
 #looks if there is a first line in the file
@@ -54,7 +54,7 @@ for line in gen_file:
     #if nothing matches previous combinations then "translation" is empty and
     # it prints the error and stops running.
     else:
-        gen_file1.write(line)
+        gen_failed_file.write(line)
         continue
         #print('Error: the line does not contain any of the tested genotypes')
         #print(line)
@@ -73,7 +73,7 @@ for line in gen_file:
         elif word == '':
             new_word = 'x'
         else:
-            new_word = 'ERROR'
+            new_word = 'Bad_call'
 
         new_line = new_line + '\t' + new_word
     print(new_line)
